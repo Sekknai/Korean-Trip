@@ -318,18 +318,22 @@ body {
   .header__btn {
     font-size: 1.5rem;
   }
-  .dreams__text {
+  .header .dreams__text {
     font-size: 1.8rem;
   }
-  .hero-img {
+  .header .hero-img {
     padding: 30rem 2em;
   }
-  .hero-img hr {
+  .header .hero-img hr {
     margin: 0 auto;
     width: 70%;
   }
-  .hero-img__text {
+  .header .hero-img__text {
     font-size: 2.2rem;
+  }
+  .header .hero-img {
+    padding: 40rem 2em;
+    background-image: linear-gradient(45deg, rgba(57, 59, 63, 0.64), rgba(92, 91, 100, 0.64)), url("../img/korea-1922376_1920.jpg");
   }
 }
 @media (min-width: 992px) {
@@ -360,5 +364,12 @@ body {
   .hero-img {
     padding: 40rem 2em;
     background-image: linear-gradient(45deg, rgba(57, 59, 63, 0.64), rgba(92, 91, 100, 0.64)), url("../img/korea-1922376_1920.jpg");
+  }
+  .hero-img__title {
+    font-size: 7.2rem;
+  }
+  .hero-img hr {
+    width: 60%;
+    min-width: 900px;
   }
 }/*# sourceMappingURL=main.css.map */
